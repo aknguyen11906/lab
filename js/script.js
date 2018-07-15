@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    console.log('Test code metric');
     $(".hamburger").click(function() {
         $("#menu").toggle(function() {
             $(".hamburger").text('☰');
